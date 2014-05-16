@@ -4,6 +4,7 @@ using System.Collections;
 public class Obstacle : MonoBehaviour {
 
     public Vector3 velocity = new Vector3(-2.5f, 0);
+    public AudioClip sound;
     private Transform cachedTransform;
     private bool hasEnteredTrigger = false;
 
@@ -43,6 +44,7 @@ public class Obstacle : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other) {
         if(hasEnteredTrigger == false && other != null && other.CompareTag("Player")) {
             Score.TotalScore += 1;
+            AudioSource.PlayClipAtPoint(sound, new Vector3(0, 0, 0), 1.0f);
             hasEnteredTrigger = true;
         }
     }

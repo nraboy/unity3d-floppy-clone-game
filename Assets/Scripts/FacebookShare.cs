@@ -5,7 +5,7 @@ public class FacebookShare : MonoBehaviour {
 	
 	void Update () {
         if(isTouched()) {
-            FacebookManager.Share("Check out my Floppy Clone greatness!", "I have a high score of " + (PlayerPrefs.GetInt("high_score", 0)).ToString() + " points.  Can you beat me?", "Flappy Bird type game created with Unity3D", null, "https://github.com/nraboy/Floppy-Clone");
+            FacebookManager.Share("Check out my Floppy Clone greatness!", "I have a high score of " + (PlayerPrefs.GetInt("high_score", 0)).ToString() + " points.  Can you beat me?", "Open source Flappy Bird type game created with Unity3D", "https://raw.githubusercontent.com/nraboy/Floppy-Clone/master/Assets/Icons/android.png", "https://github.com/nraboy/Floppy-Clone");
         }
 	}
 

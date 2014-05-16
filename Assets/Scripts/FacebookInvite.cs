@@ -6,7 +6,6 @@ public class FacebookInvite : MonoBehaviour {
 	void Update () {
         if(isTouched()) {
             FacebookManager.Invite("Play Floppy Clone with me!", "Check out this very addicting mobile game.");
-            //FacebookManager.Share("Check out my Floppy Clone greatness!", "I just scored 0 points.  Can you beat me?", "http://www.friendsmash.com/images/logo_large.jpg", "http://www.nraboy.com");
         }
 	}
 

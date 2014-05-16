@@ -8,9 +8,9 @@ public class ChartboostConfig : MonoBehaviour {
 
     void Awake() {
         #if UNITY_ANDROID
-            CBBinding.init("1234", "5678");
-        #elif UNITY_IPHONE
             CBBinding.init("0000", "1111");
+        #elif UNITY_IPHONE
+            CBBinding.init("2222", "3333");
         #endif
     }
 

@@ -2,18 +2,9 @@
 using System.Collections;
 
 public class Quit : MonoBehaviour {
-
-    public float updateInterval = 0.5F;
-    private float pressDelay;
-
-	void Start () {
-        pressDelay = updateInterval;
-	}
 	
 	void Update () {
-        pressDelay -= Time.deltaTime;
-        if(isTouched() && pressDelay <= 0) {
-            pressDelay = updateInterval;
+        if(isTouched()) {
             Application.Quit();
         }
 	}
