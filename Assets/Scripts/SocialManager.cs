@@ -6,7 +6,11 @@ using System.Collections.Generic;
 
 public class SocialManager {
 
-    public static string leaderboardId = "CgkI-uuXy7ESEAIQAA";
+    #if UNITY_ANDROID
+        public static string leaderboardId = "CgkI-uuXy7ESEAIQAA";
+    #else
+        public static string leaderboardId = "CgkI_uuXy7ESEAIQAA";
+    #endif
     public static Dictionary<string, bool> MyAchievements = new Dictionary<string, bool>();
 
     public static bool IsAuthenticated {

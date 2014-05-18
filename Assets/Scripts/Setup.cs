@@ -50,13 +50,29 @@ public class Setup : MonoBehaviour {
             }
         }
         if(Score.TotalScore >= 1000) {
-            SocialManager.UnlockAchievement("CgkI-uuXy7ESEAIQBg");
+            #if UNITY_ANDROID
+                SocialManager.UnlockAchievement("CgkI-uuXy7ESEAIQBg");
+            #elif UNITY_IPHONE
+                SocialManager.UnlockAchievement("CgkI_uuXy7ESEAIQBg");
+            #endif
         } else if(Score.TotalScore >= 100) {
-            SocialManager.UnlockAchievement("CgkI-uuXy7ESEAIQBQ");
+            #if UNITY_ANDROID
+                SocialManager.UnlockAchievement("CgkI-uuXy7ESEAIQBQ");
+            #elif UNITY_IPHONE
+                SocialManager.UnlockAchievement("CgkI_uuXy7ESEAIQBQ");
+            #endif
         } else if(Score.TotalScore >= 50) {
-            SocialManager.UnlockAchievement("CgkI-uuXy7ESEAIQBA");
+            #if UNITY_ANDROID
+                SocialManager.UnlockAchievement("CgkI-uuXy7ESEAIQBA");
+            #elif UNITY_IPHONE
+                SocialManager.UnlockAchievement("CgkI_uuXy7ESEAIQBA");
+            #endif
         } else if(Score.TotalScore >= 20) {
-            SocialManager.UnlockAchievement("CgkI-uuXy7ESEAIQAw");
+            #if UNITY_ANDROID
+                SocialManager.UnlockAchievement("CgkI-uuXy7ESEAIQAw");
+            #elif UNITY_IPHONE
+                SocialManager.UnlockAchievement("CgkI_uuXy7ESEAIQAw");
+            #endif
         }
 	}
 

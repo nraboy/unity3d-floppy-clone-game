@@ -8,6 +8,7 @@ Download this game
 -------------
 
 Google Play - [https://play.google.com/store/apps/details?id=com.nraboy.floppyclone](https://play.google.com/store/apps/details?id=com.nraboy.floppyclone)
+Apple iTunes - Under Review
 
 
 Things to note

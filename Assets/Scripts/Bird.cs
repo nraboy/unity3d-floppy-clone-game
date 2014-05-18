@@ -36,7 +36,11 @@ public class Bird : MonoBehaviour {
      * game over screen
      */
     void GameOver() {
-        SocialManager.UnlockAchievement("CgkI-uuXy7ESEAIQAg");
+        #if UNITY_ANDROID
+            SocialManager.UnlockAchievement("CgkI-uuXy7ESEAIQAg");
+        #elif UNITY_IPHONE
+            SocialManager.UnlockAchievement("CgkI_uuXy7ESEAIQAg");
+        #endif
         Application.LoadLevel("game_over");
     }
 
