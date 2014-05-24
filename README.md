@@ -9,7 +9,9 @@ Download this game
 
 Google Play - [https://play.google.com/store/apps/details?id=com.nraboy.floppyclone](https://play.google.com/store/apps/details?id=com.nraboy.floppyclone)
 
-Apple iTunes - Under Review
+Apple iTunes - [https://itunes.apple.com/us/app/floppy-clone/id879834122](https://itunes.apple.com/us/app/floppy-clone/id879834122)
+
+Windows Phone Store - [http://www.windowsphone.com/en-us/store/app/floppy-clone/a02b1489-bdd2-418d-845e-3d6098a5e89d](http://www.windowsphone.com/en-us/store/app/floppy-clone/a02b1489-bdd2-418d-845e-3d6098a5e89d)
 
 
 Things to note
@@ -43,3 +45,4 @@ Resources
 -------------
 
 Unity3D - [https://unity3d.com](https://unity3d.com)
+Nic Raboy's Code Blog - [http://blog.nraboy.com](http://blog.nraboy.com)
