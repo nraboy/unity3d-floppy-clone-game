@@ -29,5 +29,4 @@ public class FacebookShare : MonoBehaviour {
 		}
 		return result;
 	}
-	
 }
