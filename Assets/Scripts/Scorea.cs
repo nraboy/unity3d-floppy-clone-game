@@ -17,6 +17,5 @@ public class Scorea : MonoBehaviour {
 	void FixedUpdate () {
 		GetComponent<GUIText>().text = "SCORE: " + score;
 		PlayerPrefs.SetInt ("Score", score);
-	
 	}
 }
