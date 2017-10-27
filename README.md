@@ -7,7 +7,6 @@ Floppy Clone is an open source game created with Unity3D to resemble Flappy Bird
 Download this game
 -------------
 
-Google Play - [https://play.google.com/store/apps/details?id=com.nraboy.floppyclone](https://play.google.com/store/apps/details?id=com.nraboy.floppyclone)
 
 Apple iTunes - [https://itunes.apple.com/us/app/floppy-clone/id879834122](https://itunes.apple.com/us/app/floppy-clone/id879834122)
 
